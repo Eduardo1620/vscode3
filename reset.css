@@ -1,0 +1,24 @@
+/* Reset básico para garantir uma base limpa */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+/* Remove o estilo padrão de listas */
+ul {
+    list-style: none;
+}
+
+/* Remover o estilo padrão de links */
+a {
+    text-decoration: none;
+}
